@@ -9,6 +9,7 @@ let menssage ="bem vindo"
 console.log(`ola ${userName} seja bem vindo`)
 
 let age = 20;
+let student = false;
 
 console.log("meu nome é " +  userName + " e tenho " + age + " anos " )
 
