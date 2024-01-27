@@ -25,20 +25,20 @@
 //let altura = +prompt("digite a aulura")
 
 //console.log(`à area do rentangulo é: ${base * altura} cm²`);
-let userName ="fall"
+let userName = "fall"
 let number = 20
 let isStudent = false
 
-let user=[userName, number,isStudent,"valor direto",18, true];
+let user = [userName, number, isStudent, "valor direto", 18, true];
 
-user[0]= "test"
+user[0] = "test"
 console.log(user.length)
 
-function acessIndex(){
+function acessIndex() {
 
-    let index = +prompt("digite o index")
+    let index = +prompt(`digite o index de ( 0 a ${user.length - 1})`)
 
-    alert(`o elemento do idex desejado é ${user[index]}. o primeiro elemento desse array é ${user[0]}.o ultimo elemento do index é ${user.length -1} `)
+    alert(`o elemento do idex desejado é ${user[index]}. o primeiro elemento desse array é ${user[0]}.o ultimo elemento do index é ${user[user.length - 1]} `)
 
 }
 
