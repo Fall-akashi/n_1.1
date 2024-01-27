@@ -31,13 +31,14 @@ let isStudent = false
 
 let user=[userName, number,isStudent,"valor direto",18, true];
 
-user[3]= "test"
+user[0]= "test"
+console.log(user.length)
 
 function acessIndex(){
 
     let index = +prompt("digite o index")
 
-    alert(`o elemento do idex desejado é ${user[index]}`)
+    alert(`o elemento do idex desejado é ${user[index]}. o primeiro elemento desse array é ${user[0]}.o ultimo elemento do index é ${user.length -1} `)
 
 }
 
