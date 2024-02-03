@@ -42,3 +42,14 @@ function acessIndex() {
 
 }
 
+function helloWord10(){
+    let tabuada = +prompt("digite o numero")
+    alert
+    for (let contador = 0; contador < 10; contador+ 1) {
+        console.log("helo,Wolrd")
+
+        
+    }
+   // console.log("helo,Wolrd")
+}
+
