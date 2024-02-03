@@ -46,10 +46,28 @@ function helloWord10(){
     let tabuada = +prompt("digite o numero")
     alert
     for (let contador = 0; contador < 10; contador+ 1) {
-        console.log("helo,Wolrd")
+       console.log("helo,Wolrd")
 
         
     }
-   // console.log("helo,Wolrd")
+    console.log("helo,Wolrd")
+
 }
 
+function accessindexes(){
+    let students = ["marcos", "marcelo","otavio","mourice"]
+    for (let index = 0; index < students.length; index++) {
+        const element = students[index];
+        console.log(element)
+        
+    }
+}
+
+let me ={
+    name:"FALL",
+    age: 20,
+    height:1.81,
+    ofAge:true,
+    hobbies:["jogar na maior parte do tempo","trabalhar no projeto nero","tentar e falhar criar um bot proprio do discord", "programar por diversão ou necessidade"],
+};
+console.log(me);
